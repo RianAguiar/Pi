@@ -1,0 +1,33 @@
+@import url(style.css);
+
+.login_container{
+  margin-top: 16vh;
+  justify-items: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
+  box-shadow:  1px 1px 10px 1px rgba(128, 128, 128, 0.638);
+}
+
+.login_texto p{
+  padding-top: 30px;
+  font-size: 60px;
+}
+
+.login_container input{
+  margin: 20px;
+  padding: 30px;   
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.login_container button {
+  margin: 30px;
+  border-radius: 36px;
+  padding: 30px;
+  width: 300px;
+  border: none;
+  font-size: 25px;
+  background-color: var(--vermelho);
+}

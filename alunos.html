@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proximo Estágio</title>
+    <link rel="stylesheet" href="alunos.css">
+</head>
+<body>
+    <div class="barra_de_navegacao">
+        <img class="logo" src="images/logoproximoestagio.png" alt="">
+        <ul>
+            <li><a href="alunos.html">alunos</a></li>
+            <li><a href="enviados.html">Enviados</a></li>
+            <li><a href="modelos.html">Modelos</a></li>
+        </ul>
+        <img class="usuario" src="images/usuario.png" alt="">
+    </div>
+
+    <main>
+        <div class="container">
+            <h1><span><i class="fas fa-user-plus icon" ></span></i> Adicionar Alunos</h1>
+            <div class="texto">
+               <p>Suba uma tabela com os dados dos alunos para criar os contas automaticamente. Um e-mail será enviado a cada aluno para que ele possa ativar a conta e começar a usar a plataforma.</p>
+                <p><strong>Dados obrigatórios do Aluno</strong></p>
+                <ul>
+                    <li>- Nome</li>
+                    <li>- R.A.</li>
+                    <li>- Email</li>
+                    <li>- Semestre</li>
+                </ul>
+                <br>
+                <input type="button" value="Subir Planilha" class="botao_planilha">
+            </div>
+        </div>
+
+        <div class="container">
+            <h1>Filtrar Alunos</h1>
+
+                <div class="campos">
+                        <div class="preencher">
+                            <label for="Nome">Nome</label><br>
+                            <input type="text" id="nome">
+                            <br>
+                            <label for="Email">Email</label><br>
+                            <input type="email" id="email">
+                        </div>
+           
+                    <label for="Semestre">Semestre</label><br>
+                            <select id="semestre">
+                                <option value="">Selecione</option>
+                                <option value="1">1º Semestre</option>
+                                <option value="2">2º Semestre</option>
+                                <option value="3">3º Semestre</option>
+                            </select>
+                            <div>
+                                <input type="button" value="Aplicar Filtros" class="botao"></div>
+                </div>   
+        </div>
+    </main>
+</body>
+</html>
